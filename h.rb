@@ -12,6 +12,7 @@ def delete_files_with_extensions(root_folder, extensions)
 end
 
 root_folder = Dir.pwd
+# Modify to match file extensions you wanna delete
 extensions = %w[srt url html txt]
 
 delete_files_with_extensions(root_folder, extensions)
